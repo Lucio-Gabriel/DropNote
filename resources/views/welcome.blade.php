@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>DropNote</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -14,11 +14,6 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-slate-200">
-        {{-- como devemos chamar o link no front. --}}
-        {{-- @if (Route::has('login'))
-            <livewire:welcome.navigation />
-        @endif --}}
-
         <main class="flex items-center justify-center pt-36 pr-24">
             <section>
                 <img src="images/caixa_roxa.png" alt="caixa-logo">
@@ -45,8 +40,5 @@
                 </div>
             </section>
         </main>
-
-
-
     </body>
 </html>
