@@ -16,7 +16,7 @@
     <body class="bg-slate-200">
         <main class="flex items-center justify-center pt-36 pr-24">
             <section>
-                <img src="images/caixa_roxa.png" alt="caixa-logo">
+                <img src="images/caixa.png" alt="caixa-logo" class="w-[550px] h-[550px]">
             </section>
 
             <section class="text-center">
@@ -30,11 +30,11 @@
                 </p>
 
                 <div class="flex items-center justify-center gap-5 pt-5">
-                    <a href="{{ route('login') }}" class="text-white bg-primary-color py-3 px-4 rounded-lg font-semibold hover:bg-purple-600  hover:scale-100 duration-200 shadow-lg shadow-purple-600">
+                    <a href="{{ route('login') }}" class="text-white bg-primary-color py-3 px-4 rounded-lg font-semibold hover:bg-second-color  hover:scale-100 duration-200 shadow-lg shadow-second-color">
                         Entrar
                     </a>
 
-                    <a href="{{ route('register') }}" class="text-white bg-primary-color py-3 px-4 rounded-lg font-semibold hover:bg-purple-600  hover:scale-100 duration-200 shadow-lg shadow-purple-600">
+                    <a href="{{ route('register') }}" class="text-white bg-primary-color py-3 px-4 rounded-lg font-semibold hover:bg-second-color  hover:scale-100 duration-200 shadow-lg shadow-second-color">
                         Cadastrar-se
                     </a>
                 </div>

@@ -12,8 +12,10 @@ export default {
     theme: {
         extend: {
             colors: {
-                "primary-color": "#471EA0",
-                "second-color": "#5938A0",
+                // "primary-color": "#471EA0",
+                // "second-color": "#5938A0",
+                "primary-color": "#1F2937",
+                "second-color": "#111827",
             },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],

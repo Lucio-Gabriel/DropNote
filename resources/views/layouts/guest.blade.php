@@ -18,7 +18,7 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-slate-200 ">
             <div>
                 <a href="/" wire:navigate>
-                    <img src="{{ asset('images/caixa_roxa.png') }}" alt="" class="w-[200px]">
+                    <img src="{{ asset('images/caixa.png') }}" alt="" class="w-[200px]">
                 </a>
             </div>
 
