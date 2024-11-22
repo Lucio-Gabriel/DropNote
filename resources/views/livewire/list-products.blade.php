@@ -9,15 +9,103 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="text-xl p-10 text-gray-900 dark:text-gray-100">
-                    {{ __("Qual sera o seu desejo hoje?") }}
-                </div>
-                <div class="flex pl-44 mt-24 mb-24">
-                    <h1 class="text-white">Aqui vai ficar minha lista de produtos</h1>
+                <div class="text-xl font-semibold p-10 text-gray-900 dark:text-gray-100">
+                    {{ __("Produtos Minerados Cadastrado") }}
+                    {{-- <div class="flex items-end justify-end"><a href="#">Cadastrar um produto</a></div> --}}
+                    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+                        <table class="w-full mt-5 text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">
+                                    Nome do produto
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Tipo do produto
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Descrição
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Nicho
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    URL (opcional)
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    <span class="sr-only">Edit</span>
+                                </th>
+                            </tr>
+                            </thead>
+                        <tbody>
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Tipo do produto
+                                </th>
+                                <td class="px-6 py-4">
+                                    Silver
+                                </td>
+                                <td class="px-6 py-4">
+                                    Laptop
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                </td>
+                            </tr>
+
+                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Descrição
+                                </th>
+                                <td class="px-6 py-4">
+                                    White
+                                </td>
+                                <td class="px-6 py-4">
+                                    Laptop PC
+                                </td>
+                                <td class="px-6 py-4">
+                                    $1999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $1999
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                </td>
+                            </tr>
+                            <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Nicho
+                                </th>
+                                <td class="px-6 py-4">
+                                    Black
+                                </td>
+                                <td class="px-6 py-4">
+                                    Accessories
+                                </td>
+                                <td class="px-6 py-4">
+                                    $99
+                                </td>
+                                <td class="px-6 py-4">
+                                    $99
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Editar</a>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
