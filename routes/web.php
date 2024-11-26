@@ -13,6 +13,10 @@ Route::get('/products', App\Livewire\ListProducts::class)
     ->middleware('auth')
     ->name('products');
 
+Route::get('/products-register',  \App\Livewire\RegisterProducts::class)
+    ->middleware('auth')
+    ->name('register.products');
+
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
