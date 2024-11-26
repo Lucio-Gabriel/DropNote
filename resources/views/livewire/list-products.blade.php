@@ -3,15 +3,22 @@
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             {{ __('Produtos Minerados') }}
+
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div >
         <div class="max-w-full mx-auto">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="text-xl font-semibold p-10 text-gray-900 dark:text-gray-100">
-                    {{ __("Produtos Minerados Cadastrado") }}
-                    {{-- <div class="flex items-end justify-end"><a href="#">Cadastrar um produto</a></div> --}}
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl">Produtos Minerados Cadastrado</span>
+                        <a href="#" class="text-second-color text-base bg-white py-3 px-4 rounded-lg hover:scale-105 duration-300">
+                            Cadastrar um produto
+                           <span"><i class="bi bi-box-seam"></i></span>
+                        </a>
+                    </div>
+
                     <div class="relative overflow-x-auto shadow-md mt-5 sm:rounded-lg w-full">
                         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -22,7 +29,7 @@
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Tipo do produto
-                                        <span class="text-white pl-0.5 text-base"><i class="bi bi-basket3"></i></span>
+                                        <span class="text-white  text-base"><i class="bi bi-basket3"></i></span>
                                     </th>
                                     <th scope="col" class="px-6 py-3">
                                         Descrição
