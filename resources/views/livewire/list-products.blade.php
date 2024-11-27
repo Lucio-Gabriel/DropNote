@@ -2,8 +2,7 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Produtos Minerados') }}
-
+            Produtos Minerados
         </h2>
     </x-slot>
 
@@ -13,7 +12,7 @@
                 <div class="text-xl font-semibold p-10 text-gray-900 dark:text-gray-100">
                     <div class="flex items-center justify-between">
                         <span class="text-2xl">Produtos Minerados Cadastrado</span>
-                        <a href="#" class="text-second-color text-base bg-white py-3 px-4 rounded-lg hover:scale-105 duration-300">
+                        <a href="{{ route('register.products') }}" class="text-second-color text-base bg-white py-3 px-4 rounded-lg hover:scale-105 duration-300">
                             Cadastrar um produto
                            <span"><i class="bi bi-box-seam"></i></span>
                         </a>
